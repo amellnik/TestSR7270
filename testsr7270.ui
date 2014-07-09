@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Test a Signal Recovery Lockin over Ethernet</string>
+   <string>Test a 7270!</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QWidget" name="">
@@ -70,12 +70,22 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>140</y>
+      <y>110</y>
       <width>261</width>
-      <height>151</height>
+      <height>185</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The manual and descriptions of commands are &lt;a href=&quot;http://www.signalrecovery.com/download/197852-A-MNL-C.pdf&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="openExternalLinks">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
      <item>
       <widget class="QLabel" name="label_4">
        <property name="text">
@@ -84,7 +94,11 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="commandEdit"/>
+      <widget class="QLineEdit" name="commandEdit">
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
      </item>
      <item>
       <widget class="QPushButton" name="writeCommandButton">
