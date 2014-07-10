@@ -20,3 +20,5 @@ HEADERS  += testsr7270.h \
     sr7270.h
 
 FORMS    += testsr7270.ui
+
+#QMAKE_LFLAGS+=-static-libgcc #Hopefully lets deploy
